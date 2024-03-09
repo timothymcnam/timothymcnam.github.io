@@ -4,6 +4,7 @@ const button = document.getElementById('button');
 
 incomeBox.value = 100000;
 button.addEventListener("click", doughnutChart);
+button.addEventListener("touchstart", doughnutChart);
 
 const taxesExpenseMap = new Map();
 taxesExpenseMap.set('Health Care', 22);
